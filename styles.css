@@ -1,0 +1,76 @@
+header {
+    align-items: center;
+    background-color: teal;
+    color: white;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    justify-content: space-evenly;
+}
+
+body {
+    margin: 1%;
+    padding: 1%;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.purple-background {
+    background-color: rgb(210, 177, 148);
+}
+
+.centered {
+    text-align: center;
+
+}
+
+.intro {
+    max-width: 600px;
+    text-align: left;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+main {
+    max-width: auto;
+}
+
+p {
+    margin: 20px
+}
+
+#button1 {
+    background-color: teal;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#button2 {
+    background-color: teal;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flext-start;
+    justify-content: space-evenly;
+}
+
+#sprite-thingy {
+    border: 10px solid pink;
+}
